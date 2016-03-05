@@ -2,12 +2,28 @@
   "name": "pdir",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "pdir": "./node_modules/pdir/cli/pdir.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rgrannell1/pdir"
+  },
+  "bugs": {
+    "url": "https://github.com/rgrannell1/pdir/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=5.0.0",
+    "npm":  ">=3.3.7"
+  },
+  "devDependencies": {
+
+  },
   "dependencies": {
     "docopt": "^0.6.2"
   }
